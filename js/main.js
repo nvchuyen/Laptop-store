@@ -2,227 +2,227 @@
 document.addEventListener('DOMContentLoaded', function() {
     // Sample laptop data (moved to external file)
     const laptopsData = [
-     {
-        "id": 1,
-        "name": "Dell Vostro 15",
-        "brand": "Dell",
-        "price": 3500000,
-        "category": "Laptop phổ thông",
-        "quantity": 1,
-        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&q=80",
-        "specs": {
-            "cpu": "i5-7200U",
-            "ram": "8GB",
-            "storage": "SSD 256GB",
-            "gpu": "Intel HD",
-            "screen": "15.6”"
-        },
-        "description": "Laptop phổ thông, màn hình lớn, phù hợp nhu cầu cơ bản, giá rẻ."
+   {
+    "id": 1,
+    "name": "Dell Vostro 15",
+    "brand": "Dell",
+    "price": 3500000,
+    "category": "Laptop phổ thông",
+    "quantity": 1,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&q=80",
+    "specs": {
+      "cpu": "i5-7200U",
+      "ram": "8GB",
+      "storage": "SSD256GB",
+      "gpu": "Intel HD",
+      "screen": "15.6”"
     },
-    {
-        "id": 2,
-        "name": "Dell Latitude 5300 i5/8th/8gb/256",
-        "brand": "Dell",
-        "price": 3650000,
-        "category": "Laptop phổ thông",
-        "quantity": 1,
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80",
-        "specs": {
-            "cpu": "i5-8365U",
-            "ram": "8GB",
-            "storage": "SSD 256GB",
-            "gpu": "Intel UHD Graphics 620",
-            "screen": "13.3”"
-        },
-        "description": "Laptop nhỏ gọn, giá hợp lý, phù hợp nhu cầu cơ bản: soạn thảo, học tập."
+    "description": "Laptop phổ thông, màn hình lớn, phù hợp nhu cầu cơ bản, giá rẻ. ✔️"
+  },
+  {
+    "id": 2,
+    "name": "Dell Latitude 5300 i5/8th/8gb/256",
+    "brand": "Dell",
+    "price": 4000000,
+    "category": "Laptop phổ thông",
+    "quantity": 1,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80",
+    "specs": {
+      "cpu": "i5-8365U",
+      "ram": "8GB",
+      "storage": "SSD256GB",
+      "gpu": "Intel UHD Graphics 620",
+      "screen": "13.3”"
     },
-    {
-        "id": 3,
-        "name": "Dell Latitude 5310 i5/10th/8/256",
-        "brand": "Dell",
-        "price": 4250000,
-        "category": "Laptop phổ thông",
-        "quantity": 1,
-        "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80",
-        "specs": {
-            "cpu": "i5-10210U",
-            "ram": "16GB",
-            "storage": "SSD 256GB",
-            "gpu": "Intel UHD Graphics 621",
-            "screen": "13.3”"
-        },
-        "description": "Laptop nhỏ gọn, giá hợp lý, phù hợp nhu cầu cơ bản: soạn thảo, học tập."
+    "description": "Laptop nhỏ gọn, giá hợp lý, phù hợp nhu cầu cơ bản: soạn thảo, học tập. ✔️"
+  },
+  {
+    "id": 3,
+    "name": "Dell Latitude 5310 i5/10th/8/256",
+    "brand": "Dell",
+    "price": 4800000,
+    "category": "Laptop phổ thông",
+    "quantity": 1,
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80",
+    "specs": {
+      "cpu": "i5-10210U",
+      "ram": "16GB",
+      "storage": "SSD256GB",
+      "gpu": "Intel UHD Graphics 621",
+      "screen": "13.3”"
     },
-    {
-        "id": 4,
-        "name": "Dell Latitude 5320 i5/11th/16/256",
-        "brand": "Dell",
-        "price": 6250000,
-        "category": "Laptop phổ thông",
-        "quantity": 2,
-        "image": "https://res.cloudinary.com/dp8glqsir/image/upload/v1769525895/z7191080894590_fa266823caafbcd35b785d7c5464f4dd_tznxyk.jpg",
-        "specs": {
-            "cpu": "i5-1145G7",
-            "ram": "16GB",
-            "storage": "SSD 256GB",
-            "gpu": "Intel Iris Xe Graphics",
-            "screen": "13.3”"
-        },
-        "description": "Laptop Latitude, hiệu năng ổn định, phù hợp cho công việc văn phòng & học tập."
+    "description": "Laptop nhỏ gọn, giá hợp lý, phù hợp nhu cầu cơ bản: soạn thảo, học tập. ✔️"
+  },
+  {
+    "id": 4,
+    "name": "Dell Latitude 5320 i5/11th/16/256",
+    "brand": "Dell",
+    "price": 6500000,
+    "category": "Laptop phổ thông",
+    "quantity": 2,
+    "image": "https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc?w=500&q=80",
+    "specs": {
+      "cpu": "i5-1145G7",
+      "ram": "16GB",
+      "storage": "SSD256GB",
+      "gpu": "Intel Iris Xe Graphics",
+      "screen": "13.3”"
     },
-    {
-        "id": 5,
-        "name": "Dell Latitude 5320 i7/11th/16/256",
-        "brand": "Dell",
-        "price": 7000000,
-        "category": "Laptop phổ thông",
-        "quantity": 1,
-        "image": "https://images.unsplash.com/photo-1587202372775-98907f1e0a57?w=500&q=80",
-        "specs": {
-            "cpu": "i7-1185G7",
-            "ram": "16GB",
-            "storage": "SSD 256GB",
-            "gpu": "Intel Iris Xe Graphics",
-            "screen": "13.3”"
-        },
-        "description": "Laptop cao cấp, màn hình cảm ứng, mạnh mẽ cho công việc sáng tạo & di chuyển."
+    "description": "Laptop Latitude, hiệu năng ổn định, phù hợp cho công việc văn phòng & học tập. ✔️"
+  },
+  {
+    "id": 5,
+    "name": "Dell Latitude 5320 i7/11th/16/256",
+    "brand": "Dell",
+    "price": 7500000,
+    "category": "Laptop phổ thông",
+    "quantity": 1,
+    "image": "https://images.unsplash.com/photo-1587202372775-98907f1e0a57?w=500&q=80",
+    "specs": {
+      "cpu": "i7-1185G7",
+      "ram": "16GB",
+      "storage": "SSD256GB",
+      "gpu": "Intel Iris Xe Graphics",
+      "screen": "13.3”"
     },
-    {
-        "id": 6,
-        "name": "Dell Latitude 5330 i5/12th/8/256",
-        "brand": "Dell",
-        "price": 6850000,
-        "category": "Laptop phổ thông",
-        "quantity": 1,
-        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&q=80",
-        "specs": {
-            "cpu": "i5-1245U",
-            "ram": "8GB",
-            "storage": "SSD 256GB",
-            "gpu": "Intel Iris Xe Graphics",
-            "screen": "13.3”"
-        },
-        "description": "Laptop đời mới, CPU Gen 12, hiệu năng mạnh mẽ cho văn phòng & học tập."
+    "description": "Laptop cao cấp, màn hình cảm ứng, mạnh mẽ cho công việc sáng tạo & di chuyển. ✈️"
+  },
+  {
+    "id": 6,
+    "name": "Dell Latitude 5330 i5/12th/8/256",
+    "brand": "Dell",
+    "price": 7000000,
+    "category": "Laptop phổ thông",
+    "quantity": 1,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&q=80",
+    "specs": {
+      "cpu": "i5-1245U",
+      "ram": "8GB",
+      "storage": "SSD256GB",
+      "gpu": "Intel Iris Xe Graphics",
+      "screen": "13.3”"
     },
-    {
-        "id": 7,
-        "name": "Dell Latitude 5400 i5/8th/8/256",
-        "brand": "Dell",
-        "price": 3850000,
-        "category": "Laptop phổ thông",
-        "quantity": 1,
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80",
-        "specs": {
-            "cpu": "i5-8265U",
-            "ram": "8GB",
-            "storage": "SSD 256GB",
-            "gpu": "Intel UHD Graphics 620",
-            "screen": "14”"
-        },
-        "description": "nan"
+    "description": "Laptop đời mới, CPU Gen 12, hiệu năng mạnh mẽ cho văn phòng & học tập. ✔️"
+  },
+  {
+    "id": 7,
+    "name": "Dell Latitude 5400 i5/8th/8/256",
+    "brand": "Dell",
+    "price": 4200000,
+    "category": "Laptop phổ thông",
+    "quantity": 1,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80",
+    "specs": {
+      "cpu": "i5-8265U",
+      "ram": "8GB",
+      "storage": "SSD256GB",
+      "gpu": "Intel UHD Graphics 620",
+      "screen": "14”"
     },
-    {
-        "id": 8,
-        "name": "Dell Latitude 5420 i5/11th/16/256",
-        "brand": "Dell",
-        "price": 7200000,
-        "category": "Laptop phổ thông",
-        "quantity": 1,
-        "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80",
-        "specs": {
-            "cpu": "i7-1185G7",
-            "ram": "8GB",
-            "storage": "SSD 256GB",
-            "gpu": "Intel Iris Xe Graphics",
-            "screen": "14”"
-        },
-        "description": "Laptop Latitude dòng bền, CPU i7 mạnh mẽ, thích hợp cho dân IT & văn phòng."
+    "description": ""
+  },
+  {
+    "id": 8,
+    "name": "Dell Latitude 5420 i5/11th/16/256",
+    "brand": "Dell",
+    "price": 7650000,
+    "category": "Laptop phổ thông",
+    "quantity": 1,
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80",
+    "specs": {
+      "cpu": "i7-1185G7",
+      "ram": "8GB",
+      "storage": "SSD256GB",
+      "gpu": "Intel Iris Xe Graphics",
+      "screen": "14”"
     },
-    {
-        "id": 9,
-        "name": "Dell Latitude 5430 i5/12th/16/256",
-        "brand": "Dell",
-        "price": 7500000,
-        "category": "Laptop phổ thông",
-        "quantity": 1,
-        "image": "https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc?w=500&q=80",
-        "specs": {
-            "cpu": "i5-1245U (Gen 12)",
-            "ram": "16GB",
-            "storage": "SSD 256GB",
-            "gpu": "Intel Iris Xe Graphics",
-            "screen": "14”"
-        },
-        "description": "nan"
+    "description": "Laptop Latitude dòng bền, CPU i7 mạnh mẽ, thích hợp cho dân IT & văn phòng. ✔️"
+  },
+  {
+    "id": 9,
+    "name": "Dell Latitude 5430 i5/12th/16/256",
+    "brand": "Dell",
+    "price": 8500000,
+    "category": "Laptop phổ thông",
+    "quantity": 1,
+    "image": "https://images.unsplash.com/photo-1527443154391-507e9dc6c5cc?w=500&q=80",
+    "specs": {
+      "cpu": "i5-1245U (Gen 12)",
+      "ram": "16GB",
+      "storage": "SSD256GB",
+      "gpu": "Intel Iris Xe Graphics",
+      "screen": "14”"
     },
-    {
-        "id": 10,
-        "name": "Dell Latitude 7320 i7/11th/16/256",
-        "brand": "Dell",
-        "price": 7300000,
-        "category": "Laptop phổ thông",
-        "quantity": 1,
-        "image": "https://res.cloudinary.com/dp8glqsir/image/upload/v1769620444/z7439546531147_eee457698d2fee5df50616dcbb788679_f8mnrw.jpg",
-        "specs": {
-            "cpu": "i7-1185G7 @3.0GHz",
-            "ram": "16GB",
-            "storage": "SSD 256GB",
-            "gpu": "Intel Iris Xe Graphics",
-            "screen": "13.3”"
-        },
-        "description": "Laptop doanh nhân cao cấp, CPU i7 mạnh mẽ, thích hợp cho công việc nặng."
+    "description": ""
+  },
+  {
+    "id": 10,
+    "name": "Dell Latitude 7320 i7/11th/16/256",
+    "brand": "Dell",
+    "price": 7850000,
+    "category": "Laptop phổ thông",
+    "quantity": 1,
+    "image": "https://images.unsplash.com/photo-1587202372775-98907f1e0a57?w=500&q=80",
+    "specs": {
+      "cpu": "i7-1185G7 @3.0GHz",
+      "ram": "16GB",
+      "storage": "SSD256GB",
+      "gpu": "Intel Iris Xe Graphics",
+      "screen": "13.3”"
     },
-    {
-        "id": 11,
-        "name": "Dell Vostro 5301 i5/11th/16/256",
-        "brand": "Dell",
-        "price": 6250000,
-        "category": "Laptop phổ thông",
-        "quantity": 1,
-        "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&q=80",
-        "specs": {
-            "cpu": "i5-1135G7 @2.40GHz",
-            "ram": "8GB",
-            "storage": "SSD 256GB",
-            "gpu": "Intel Iris Xe Graphics",
-            "screen": "13.3”"
-        },
-        "description": "Laptop siêu mỏng nhẹ, thiết kế premium, hiệu năng tốt cho văn phòng & học tập."
+    "description": "Laptop doanh nhân cao cấp, CPU i7 mạnh mẽ, thích hợp cho công việc nặng. ✔️"
+  },
+  {
+    "id": 11,
+    "name": "Dell Vostro 5301 i5/11th/16/256",
+    "brand": "Dell",
+    "price": 6250000,
+    "category": "Laptop phổ thông",
+    "quantity": 1,
+    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&q=80",
+    "specs": {
+      "cpu": "i5-1135G7 @2.40GHz",
+      "ram": "8GB",
+      "storage": "SSD256GB",
+      "gpu": "Intel Iris Xe Graphics",
+      "screen": "13.3”"
     },
-    {
-        "id": 12,
-        "name": "Dell Latitude 3301 i5/8th/8gb/256",
-        "brand": "Dell",
-        "price": 4250000,
-        "category": "Laptop phổ thông",
-        "quantity": 1,
-        "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80",
-        "specs": {
-            "cpu": "i5-8365U",
-            "ram": "8GB",
-            "storage": "SSD 256GB",
-            "gpu": "Intel UHD Graphics 620",
-            "screen": "13.3”"
-        },
-        "description": "nan"
+    "description": "Laptop siêu mỏng nhẹ, thiết kế premium, hiệu năng tốt cho văn phòng & học tập. ✔️"
+  },
+  {
+    "id": 12,
+    "name": "Dell Latitude 3301 i5/8th/8gb/256",
+    "brand": "Dell",
+    "price": 4250000,
+    "category": "Laptop phổ thông",
+    "quantity": 1,
+    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80",
+    "specs": {
+      "cpu": "i5-8365U",
+      "ram": "8GB",
+      "storage": "SSD256GB",
+      "gpu": "Intel UHD Graphics 620",
+      "screen": "13.3”"
     },
-    {
-        "id": 13,
-        "name": "HP ProBook 430 G8 i5/11th/16/256",
-        "brand": "HP",
-        "price": 5800000,
-        "category": "Laptop phổ thông",
-        "quantity": 1,
-        "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80",
-        "specs": {
-            "cpu": "i5-1135G7",
-            "ram": "16GB",
-            "storage": "SSD 256GB",
-            "gpu": "Intel Iris Xe Graphics",
-            "screen": "13.3”"
-        },
-        "description": "Laptop HP ProBook, thiết kế gọn gàng, RAM lớn, phù hợp học sinh sinh viên."
-    }
+    "description": ""
+  },
+  {
+    "id": 13,
+    "name": "HP ProBook 430 G8 i5/11th/16/256",
+    "brand": "HP",
+    "price": 6000000,
+    "category": "Laptop phổ thông",
+    "quantity": 1,
+    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80",
+    "specs": {
+      "cpu": "i5-1135G7",
+      "ram": "16GB",
+      "storage": "SSD256GB",
+      "gpu": "Intel Iris Xe Graphics",
+      "screen": "13.3”"
+    },
+    "description": "Laptop HP ProBook, thiết kế gọn gàng, RAM lớn, phù hợp học sinh sinh viên. ✔️"
+  }
     ];
 
     // DOM elements
