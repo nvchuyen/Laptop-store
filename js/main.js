@@ -26,7 +26,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "price": 4000000,
     "category": "Laptop phổ thông",
     "quantity": 1,
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80",
+    "image": "https://res.cloudinary.com/dp8glqsir/image/upload/v1769708999/z7481815415333_0cd3c374b75f7d186021e4654e3ec7c9_ikbkqy.jpg",
     "specs": {
       "cpu": "i5-8365U",
       "ram": "8GB",
