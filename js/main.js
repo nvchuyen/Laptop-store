@@ -111,7 +111,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "price": 4200000,
     "category": "Laptop phổ thông",
     "quantity": 1,
-    "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=500&q=80",
+    "image": "https://res.cloudinary.com/dp8glqsir/image/upload/v1769708295/z7481772199060_7aacac924dbf0e72eaca11866084628b_mjebbj.jpg",
     "specs": {
       "cpu": "i5-8265U",
       "ram": "8GB",
