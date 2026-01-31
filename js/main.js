@@ -128,7 +128,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "price": 7650000,
     "category": "Laptop phổ thông",
     "quantity": 1,
-    "image": "https://images.unsplash.com/photo-1496181133206-80ce9b88a853?w=500&q=80",
+    "image": "https://res.cloudinary.com/dp8glqsir/image/upload/v1769880891/bbb_q8cu5n.jpg",
     "specs": {
       "cpu": "i7-1185G7",
       "ram": "8GB",
