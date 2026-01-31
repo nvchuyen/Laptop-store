@@ -179,7 +179,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "price": 6250000,
     "category": "Laptop phổ thông",
     "quantity": 1,
-    "image": "https://images.unsplash.com/photo-1517336714731-489689fd1ca8?w=500&q=80",
+    "image": "https://res.cloudinary.com/dp8glqsir/image/upload/v1769881079/Screenshot_2026-02-01_002551_kogiyu.png",
     "specs": {
       "cpu": "i5-1135G7 @2.40GHz",
       "ram": "8GB",
