@@ -162,7 +162,7 @@ document.addEventListener('DOMContentLoaded', function() {
     "price": 7850000,
     "category": "Laptop phổ thông",
     "quantity": 1,
-    "image": "https://images.unsplash.com/photo-1587202372775-98907f1e0a57?w=500&q=80",
+    "image": "https://res.cloudinary.com/dp8glqsir/image/upload/v1769880470/z7488538046838_382ae3707676bfd604d65aad8287acf3_r2bb2n.jpg",
     "specs": {
       "cpu": "i7-1185G7 @3.0GHz",
       "ram": "16GB",
